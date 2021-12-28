@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang = en-US>
+<head>
+    <title> Daniel Peacock </title>
+    <!-- BASIC META -->
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "author" content = "Daniel Peacock">
+    <meta name = "description" content = "A personal portfolio website created using HTML, Javascript, and CSS.">
+    <meta name = "title" content = "Daniel Peacock Website">
+    <meta name = "image" content = --------------INSERT HEADSHOT HERE---------------------->
+    <!-- META PROPERTIES-->
+    <meta property="og:description" content="A personal portfolio website created using HTML, Javascript, and CSS."/>
+    <meta property="og:title" content="Daniel Peacock Website"/>
+    <meta property="og:author" content="Daniel Peacock"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:image" content="-------LINK TO THE IMAGE FILE-------" />
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+<!--- Menu -->
+<div class = "menu"> 
+    <button onclick="menu_click()" class = "dropbtn" src="images/menu-icon.jpg"> </button>
+    <div id = "dropdown" class = "dropdown-content">
+        <a href="#home" id = "homeMenu">Home</a>
+        <a href="#about"id = "aboutMenu">About</a>
+        <a href="#education" id = "educationMenu">Education</a>
+        <a href="#projects" id = "projectsMenu">Projects</a>
+        <a href="#extracurriculars" id = "extraMenu">Extracurricular</a>
+        <a href="#contact" id = "contactMenu">Contact</a>
+        
+    </div>
+
+</div>
+
+<!--- Page Header-->
+<div class = "home-header" id = "home">
+    <div class="site-title fade-in">
+        <h1 style = "cursor:default;"> Daniel D. Peacock</h1>
+        <h2 style = "cursor:default;" > Software Engineer | Student | Innovator</h2>
+        <div>
+          <a href="https://github.com/dpeacockk" target = "_blank">
+            <img class="logo" alt="Find me on Github" src = "images/github-icon.png"> 
+          </a>
+          <a href="mailto:dpeacock@umich.edu" target = "_blank">
+            <img class = "logo" alt = "Send me an Email" src = "images/email-icon.png">
+          </a>
+          <a href="https://www.linkedin.com/in/danieldpeacock" target="_blank">
+            <img class = "logo" alt = "Find me on LinkedIn" src = "images/linked-in-icon.png">
+          </a>
+        </div>
+        <a href="Daniel-Peacock-Resume.pdf" class="link" id="header-resume-link" target="_blank">Resume</a>
+    </div>
+    <span id="arrow-wrapper" class = "fade-in">
+      <a href="#about" id="pointing-arrow"> ▼ </a>
+    </span>
+    <div id="header-image"></div>
+</div>
+<script src="dynamic.js"></script>
+
+<!-- Main Page -->
+<div class="home-page">
+<!--About-->
+<div class="bar" style="padding-bottom:25px;">
+  <h1 class="page-header" id="about">About</h1>
+  <hr class="header-line expand-from-center" style="width:100px;">
+  <div class="about" style="text-align:center;">
+    <p style="max-width:500px;color:white;margin:0 auto;text-align:left;display:inline-flex;padding:30px;">
+      <span style="padding-left:2em;"></span>
+      "A Sophomore at the University of Michigan studying Computer Science with a focus in Software Engineering. I'm interesting in pursuing a Software Engineering Internship in which I will acquire new skills and gain a better understanding of the software development process. I prioritize clean, efficient, and secure code when developing software, and I pride myself on my creative solutions, strong communication skills, and open-mindedness towards new ideas. "
+    </p>
+    <img src="images/seniorphoto.png" alt="Profile Picture" class="profile-picture">
+  </div>
+</div>
+
+<!--Education-->
+<h1 class="page-header" id="education">Education</h1>
+<hr class="header-line expand-from-center" style="width:180px">
+<div style="text-align:center;">
+  <div style="vertical-align:top;display:inline-block;text-align:center;padding-right:15px;padding-top:30px;padding-left:15px;">
+    <div style="text-align:center;">
+      <img src="images/block-M-icon.png" alt="University of Michigan logo" style="height:100px;">
+    </div>
+    <div style="text-align:center;width:auto;">
+      <p class="education">
+        University of Michigan, Ann Arbor
+        <br>
+        Class of 2024, College of Engineering
+        <br>
+        Computer Science B.S.
+        <br>
+        GPA: 3.4/4.0
+      </p>  
+    </div>
+  </div>
+  <ul class="coursework">
+    <li style="font-size:20px;color:white;"></li>
+    <li>Foundations of Computer Science</li>
+    <li>Computer Science Pragmatics</li>
+    <li>Data Structures and Algorithms</li>
+    <li>Programming and Data Structures</li>
+    <li>Introduction to Probability and Statistics</li>
+    <li>Discrete Mathematics</li>
+    <li>Applied Linear Algebra</li>
+    <li>Multivariable and Vector Calculus</li>
+    <li>Introduction to Differential Equations</li>
+    <li>Physics II: Electricity and Magnetism</li>
+  </ul>
+</div>
+
+<!--Experience--> <!--EXCLUDE THIS UNTIL I GET SOFTWARE ENGINEERING WORK EXPERIENCE-->
+
+<!--Extracirriculars -->
+
+
+<!--Projects-->
+
+
+<!--Skills-->
+
+
+<!--Contact Me-->
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function menu_click() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+
+
+
+</script>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
