@@ -22,8 +22,8 @@
 </head>
 <body>
 <!--- Menu -->
-<div class = "menu"> 
-    <button onclick="menu_click()" class = "dropbtn" src="images/menu-icon.jpg"> </button>
+<div class = "dropdown"  > 
+  <img onclick="menu_click()" class = "dropbtn" src = "images/menu-icon.png" > 
     <div id = "dropdown" class = "dropdown-content">
         <a href="#home" id = "homeMenu">Home</a>
         <a href="#about"id = "aboutMenu">About</a>
@@ -31,9 +31,7 @@
         <a href="#projects" id = "projectsMenu">Projects</a>
         <a href="#extracurriculars" id = "extraMenu">Extracurricular</a>
         <a href="#contact" id = "contactMenu">Contact</a>
-        
     </div>
-
 </div>
 
 <!--- Page Header-->
@@ -42,17 +40,20 @@
         <h1 style = "cursor:default;"> Daniel D. Peacock</h1>
         <h2 style = "cursor:default;" > Software Engineer | Student | Innovator</h2>
         <div>
-          <a href="https://github.com/dpeacockk" target = "_blank">
+          <a href="https://github.com/dpeacockk" target = "_blank" >
             <img class="logo" alt="Find me on Github" src = "images/github-icon.png"> 
           </a>
-          <a href="mailto:dpeacock@umich.edu" target = "_blank">
-            <img class = "logo" alt = "Send me an Email" src = "images/email-icon.png">
+          <a href="mailto:dpeacock@umich.edu" target = "_blank" >
+            <img class = "logo2" alt = "Send me an Email" src = "images/email-icon.png">
           </a>
-          <a href="https://www.linkedin.com/in/danieldpeacock" target="_blank">
+          <a href="https://www.linkedin.com/in/danieldpeacock" target="_blank" >
             <img class = "logo" alt = "Find me on LinkedIn" src = "images/linked-in-icon.png">
           </a>
+          <a href="Daniel-Peacock-Resume.pdf"class="resume">
+            <img class = "logo2" src="https://www.freeiconspng.com/uploads/resume-icon-png-2.png"  alt="Resume Symbol Icon" >
+          </a>
         </div>
-        <a href="Daniel-Peacock-Resume.pdf" class="link" id="header-resume-link" target="_blank">Resume</a>
+        
     </div>
     <span id="arrow-wrapper" class = "fade-in">
       <a href="#about" id="pointing-arrow"> ▼ </a>
@@ -71,7 +72,7 @@
     <div class="profile-picture">
       <img src="images/seniorphoto.png" alt="Profile Picture" class="profile-picture">
     </div>
-    <p style="max-width:500px;color:white;margin:0 auto;text-align:left;display:inline-flex;padding:30px;">
+    <p style="max-width:800px;color:white;margin:0 auto;text-align:left;display:inline-flex;padding:30px;font-size: 25px;">
       <span style="padding-left:2em;"></span>
       "A Sophomore at the University of Michigan studying Computer Science with a focus in Software Engineering. I'm interesting in pursuing a Software Engineering Internship in which I will acquire new skills and gain a better understanding of the software development process. I prioritize clean, efficient, and secure code when developing software, and I pride myself on my creative solutions, strong communication skills, and open-mindedness towards new ideas. "
     </p>
@@ -149,7 +150,7 @@
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function menu_click() {
-  document.getElementById("myDropdown").classList.toggle("show");
+  document.getElementById("dropdown").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
