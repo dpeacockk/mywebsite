@@ -20,6 +20,7 @@
 
 
 </head>
+
 <body>
 <!--- Menu -->
 <div class = "dropdown"  > 
@@ -33,12 +34,12 @@
         <a href="#contact" id = "contactMenu">Contact</a>
     </div>
 </div>
-
+<div style="padding-top: 100px;"></div>
 <!--- Page Header-->
 <div class = "home-header" id = "home">
     <div class="site-title fade-in">
-        <h1 style = "cursor:default;"> Daniel D. Peacock</h1>
-        <h2 style = "cursor:default;" > Software Engineer | Student | Innovator</h2>
+        <h1 style = "cursor:default;color:white;"> Daniel D. Peacock</h1>
+        <h2 style = "cursor:default;color:white;" > Software Engineer | Student | Innovator</h2>
         <div>
           <a href="https://github.com/dpeacockk" target = "_blank" >
             <img class="logo" alt="Find me on Github" src = "images/github-icon.png"> 
@@ -50,29 +51,29 @@
             <img class = "logo" alt = "Find me on LinkedIn" src = "images/linked-in-icon.png">
           </a>
           <a href="Daniel-Peacock-Resume.pdf"class="resume">
-            <img class = "logo2" src="https://www.freeiconspng.com/uploads/resume-icon-png-2.png"  alt="Resume Symbol Icon" >
+            <img class = "logo2" src="images/resume-icon.png"  alt="Resume Symbol Icon" >
           </a>
         </div>
-        
+
     </div>
-    <span id="arrow-wrapper" class = "fade-in">
-      <a href="#about" id="pointing-arrow"> ▼ </a>
-    </span>
-    <div id="header-image"></div>
+
+    <div id="headerimage"></div>  <!---*****************FIX THIS************************** --->
 </div>
 <script src="dynamic.js"></script>
 
+
 <!-- Main Page -->
-<div class="home-page">
+<div class="home-page" style="background:#084680;margin-top: 400px; padding-top:25px ;">
+
 <!--About-->
-<div class="bar" style="padding-bottom:25px;">
+<div class="bar" style="padding-bottom:20px;background:#084680;">
   <h1 class="page-header" id="about">About</h1>
-  <hr class="header-line expand-from-center" style="width:100px;">
+  <hr class="header-line expand-from-center" style="width:140px;margin-top:-15px;">
   <div class="about" style="text-align:center;">
     <div class="profile-picture">
       <img src="images/seniorphoto.png" alt="Profile Picture" class="profile-picture">
     </div>
-    <p style="max-width:800px;color:white;margin:0 auto;text-align:left;display:inline-flex;padding:30px;font-size: 25px;">
+    <p style="max-width:800px;color:white;margin:0 auto;font-family:'Garamond';text-align:left;display:inline-flex;padding:30px;font-size: 25px;">
       <span style="padding-left:2em;"></span>
       "A Sophomore at the University of Michigan studying Computer Science with a focus in Software Engineering. I'm interesting in pursuing a Software Engineering Internship in which I will acquire new skills and gain a better understanding of the software development process. I prioritize clean, efficient, and secure code when developing software, and I pride myself on my creative solutions, strong communication skills, and open-mindedness towards new ideas. "
     </p>
@@ -81,50 +82,68 @@
 </div>
 
 <!--Education-->
-<h1 class="page-header" id="education">Education</h1>
-<hr class="header-line expand-from-center" style="width:180px">
-<div style="text-align:center;">
-  <div style="vertical-align:top;display:inline-block;text-align:center;padding-right:15px;padding-top:30px;padding-left:15px;">
-    <div style="text-align:center;">
-      <img src="images/block-M-icon.png" alt="University of Michigan logo" style="height:100px;">
+<div class="bar" style="padding-top:10px;padding-bottom:20px;background:#095da7;">
+  <h1 class="page-header" id="education">Education</h1>
+  <hr class="header-line expand-from-center" style="width:225px;margin-top:-10px;">
+  <div style="text-align:center; ">
+    <div style="vertical-align:top;display:inline-block;text-align:center;padding-right:15px;padding-top:30px;padding-left:15px;">
+      <div style="text-align:center;">
+        <img src="images/block-M-icon.png" alt="University of Michigan logo" style="height:100px;">
+      </div>
+      <div style="text-align:center;width:auto;">
+        <p class="education">
+          University of Michigan, Ann Arbor
+          <br>
+          Class of 2024, College of Engineering
+          <br>
+          Computer Science B.S.E.
+          <br>
+          GPA: 3.4/4.0
+        </p>  
+      </div>
     </div>
-    <div style="text-align:center;width:auto;">
-      <p class="education">
-        University of Michigan, Ann Arbor
-        <br>
-        Class of 2024, College of Engineering
-        <br>
-        Computer Science B.S.E.
-        <br>
-        GPA: 3.4/4.0
-      </p>  
-    </div>
-  </div>
-  <ul class="coursework" style = "text-align: left;list-style-position: inside;display: inline-block;">
-    <li style="font-size:20px;color:white;display: table;"></li>
-    <li>Foundations of Computer Science</li>
-    <li>Computer Science Pragmatics</li>
-    <li>Data Structures and Algorithms</li>
-    <li>Programming and Data Structures</li>
-    <li>Introduction to Probability and Statistics</li>
-    <li>Discrete Mathematics</li>
-    <li>Applied Linear Algebra</li>
-    <li>Multivariable and Vector Calculus</li>
-    <li>Introduction to Differential Equations</li>
-    <li>Physics II: Electricity and Magnetism</li>
-  </ul>
+    <ul class="coursework" style = "text-align: left;list-style-position: inside;display: inline-block;">
+      <li style="font-size:20px;color:white;display: table;"></li>
+      <li>Foundations of Computer Science</li>
+      <li>Computer Science Pragmatics</li>
+      <li>Data Structures and Algorithms</li>
+      <li>Programming and Data Structures</li>
+      <li>Introduction to Probability and Statistics</li>
+      <li>Discrete Mathematics</li>
+      <li>Applied Linear Algebra</li>
+      <li>Multivariable and Vector Calculus</li>
+      <li>Introduction to Differential Equations</li>
+      <li>Physics II: Electricity and Magnetism</li>
+    </ul>
+</div>
+
 </div>
 
 <!--Experience--> <!--EXCLUDE THIS UNTIL I GET SOFTWARE ENGINEERING WORK EXPERIENCE-->
 
 <!--Extracirriculars -->
+<div class="bar" style="padding-bottom:20px;background:#084680;">
+  <h1 class="page-header" id="extracurriculars">Extracurriculars</h1>
+  <hr class="header-line expand-from-center" style="width:300px;margin-top:-15px;">
+
+</div>
+
+
 
 
 <!--Projects-->
+<div class="bar" style="padding-top:10px;padding-bottom:20px;background:#095da7;">
+  <h1 class="page-header" id="extracurriculars">Projects</h1>
+  <hr class="header-line expand-from-center" style="width: 175px;margin-top:-15px;">
 
+</div>
 
 <!--Skills-->
+<div class="bar" style="padding-bottom:20px;background:#084680;">
+  <h1 class="page-header" id="extracurriculars">Skills</h1>
+  <hr class="header-line expand-from-center" style="width:104px;margin-top:-15px;">
 
+</div>
 
 <!--Contact Me-->
 
@@ -132,13 +151,6 @@
 
 
 </div>
-
-
-
-
-
-
-
 
 
 
