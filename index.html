@@ -2,6 +2,7 @@
 
 <html lang = en-US>
 <head>
+
     <title> Daniel Peacock </title>
     <!-- BASIC META -->
     <meta charset="utf-8">
@@ -17,7 +18,10 @@
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="-------LINK TO THE IMAGE FILE-------" />
     <link rel="stylesheet" href="css\styles.css">
+    
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="dynamic.js"></script>
 
 </head>
 
@@ -42,10 +46,10 @@
         <h2 style = "cursor:default;color:white;" > Software Engineer | Student | Innovator</h2>
         <div>
           <a href="https://github.com/dpeacockk" target = "_blank" >
-            <img class="logo" alt="Find me on Github" src = "images/github-icon.png"> 
+            <img class="logo" style="width:60px;height:60px;border-radius:500%;"alt="Find me on Github" src = "images/github-icon.png"> 
           </a>
           <a href="mailto:dpeacock@umich.edu" target = "_blank" >
-            <img class = "logo2" alt = "Send me an Email" src = "images/email-icon.png">
+            <img class = "logo" alt = "Send me an Email" src = "images/email-icon.png">
           </a>
           <a href="https://www.linkedin.com/in/danieldpeacock" target="_blank" >
             <img class = "logo" alt = "Find me on LinkedIn" src = "images/linked-in-icon.png">
@@ -88,7 +92,7 @@
   <div style="text-align:center; ">
     <div style="vertical-align:top;display:inline-block;text-align:center;padding-right:15px;padding-top:30px;padding-left:15px;">
       <div style="text-align:center;">
-        <img src="images/block-M-icon.png" alt="University of Michigan logo" style="height:100px;">
+        <img src="images/block-M-icon.png" class="ele-hover"alt="University of Michigan logo" style="padding-bottom:5%;height:125px;">
       </div>
       <div style="text-align:center;width:auto;">
         <p class="education">
@@ -102,18 +106,19 @@
         </p>  
       </div>
     </div>
-    <ul class="coursework" style = "text-align: left;list-style-position: inside;display: inline-block;">
-      <li style="font-size:20px;color:white;display: table;"></li>
-      <li>Foundations of Computer Science</li>
-      <li>Computer Science Pragmatics</li>
-      <li>Data Structures and Algorithms</li>
-      <li>Programming and Data Structures</li>
-      <li>Introduction to Probability and Statistics</li>
-      <li>Discrete Mathematics</li>
-      <li>Applied Linear Algebra</li>
-      <li>Multivariable and Vector Calculus</li>
-      <li>Introduction to Differential Equations</li>
-      <li>Physics II: Electricity and Magnetism</li>
+    <ul class="coursework" style = "font-size:25px;color: #ffd942;text-align: left;list-style-position: inside;display: inline-block;">
+      Relevant coursework
+      <li style="padding-top:3px; font-size:20px;color:white;display: table;">
+      <li style="font-size:20px;color:white;display: table;">Foundations of Computer Science</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Computer Science Pragmatics</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Data Structures and Algorithms</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Programming and Data Structures</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Introduction to Probability and Statistics</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Discrete Mathematics</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;" >Applied Linear Algebra</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Multivariable and Vector Calculus</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Introduction to Differential Equations</li>
+      <li style="padding-top:1.5%;font-size:20px;color:white;display: table;">Physics II: Electricity and Magnetism</li></li>
     </ul>
 </div>
 
@@ -121,44 +126,238 @@
 
 <!--Experience--> <!--EXCLUDE THIS UNTIL I GET SOFTWARE ENGINEERING WORK EXPERIENCE-->
 
-<!--Extracirriculars -->
+<!--Projects -->
 <div class="bar" style="padding-bottom:20px;background:#084680;">
-  <h1 class="page-header" id="extracurriculars">Extracurriculars</h1>
-  <hr class="header-line expand-from-center" style="width:300px;margin-top:-15px;">
-
-</div>
-
-
-
-
-<!--Projects-->
-<div class="bar" style="padding-top:10px;padding-bottom:20px;background:#095da7;">
   <h1 class="page-header" id="extracurriculars">Projects</h1>
-  <hr class="header-line expand-from-center" style="width: 175px;margin-top:-15px;">
+  <hr class="header-line expand-from-center" style="width:175px;margin-top:-15px;">
+  
+  <div class="project-title">
+    <!-- include link to github, date, and what class / INDEPENDENT project-->
+    <h4 style="margin:0;margin-bottom: 5px;margin-top: 15px;">Disc Shop</h4>
 
-</div>
+  </div>
+  <div class="project-date">
+    Independent <br>
+    July 2022<br>
+    <a href="https://github.com/dpeacockk/DiscShop" target="_blank" style="color:#ffd942;text-decoration: underline;">
+      View on Github
+    </a>
+  </div>
+  <ul class="project-description">
+    <!-- include description for project-->
+     <li> desc 1</li>
+     <li> desc 2</li>
+  </ul>
+
+  <div class="project-title">
+    <!-- include link to github, date, and what class / INDEPENDENT project-->
+    <h4 style="margin:0;margin-bottom: 5px;margin-top: 20px;">Coordinate Path Finder</h4>
+
+  </div>
+  <div class="project-date">
+    EECS 281 <br>
+    April 2022<br>
+    
+  </div>
+  <ul class="project-description">
+    <!-- include description for project-->
+     <li> desc 1</li>
+     <li> desc 2</li>
+  </ul>
+
+  <div class="project-title">
+    <!-- include link to github, date, and what class / INDEPENDENT project-->
+    <h4 style="margin:0;margin-bottom: 5px;margin-top: 20px;">Youtube Video Downloader</h4>
+
+  </div>
+  <div class="project-date">
+    Independent <br>
+    July 2021<br>
+    <a href="https://github.com/dpeacockk/YoutubeDownloader" target="_blank" style="color:#ffd942;text-decoration: underline;">
+      View on Github
+    </a>
+  </div>
+  <ul class="project-description">
+    <!-- include description for project-->
+     <li> desc 1</li>
+     <li> desc 2</li>
+  </ul>
+
+  <div class="project-title">
+    <!-- include link to github, date, and what class / INDEPENDENT project-->
+    <h4 style="margin:0;margin-bottom: 5px;margin-top: 20px;">Treasure Map Navigator</h4>
+  </div>
+  <div class="project-date">
+    EECS 281 <br>
+    October 2021<br>
+    
+  </div>
+  <ul class="project-description">
+    <!-- include description for project-->
+     <li> desc 1</li>
+     <li> desc 2</li>
+  </ul>
+
+  <!-- <div class="project-title">
+     link to github, date, and what class / INDEPENDENT project
+    title
+  </div>
+  <div class="project-date">
+    Independent <br>
+    July 2022
+  </div>
+  <div class="project-description">
+     include description for project description
+  </div> -->
+  </div>
+
+
+
+
+<!--Extracirriculars-->
+<div class="bar" style="padding-top:10px;padding-bottom:20px;background:#095da7;">
+  <h1 class="page-header" id="extracurriculars">Extracurriculars</h1>
+  <hr class="header-line expand-from-center" style="width: 300px;margin-top:-15px;">
+  <header class="header1">
+    <div class="wrapper1">
+      
+      <div class="project-title">
+        <h3 style="margin:0;margin-bottom: 10px;">Michigan Hackers</h3>
+        <p style="margin:0;font-size: medium;">Machine Learning Member</p>
+        <p style="margin:0;font-size: medium;">September 2022 - Current</p>
+        <a href="https://michhackers.com/" class="extra-logo" target="_blank">
+          <img src="images/mich-hackers-icon.jpg" class="ele-hover" alt="a logo" style="width:4%;border-radius: 25%;margin-top: 10px;">
+        </a>
+    </div>
+      <ul class="extra-body">
+        <li>DN</li>
+        <li>DN</li>
+
+      </ul>
+    </div>
+  </header>
+  
+
+  <header class="header1">
+    <div class="wrapper1">
+      
+      <div class="project-title">
+        <h3 style="margin:0;margin-bottom: 10px;">MASA</h3>
+        <p style="margin:0;font-size: medium;">Structures Team Member</p>
+        <p style="margin:0;font-size: medium;">September 2021 - December 2021</p>
+        <a href="https://masa.engin.umich.edu/" target="_blank">
+          <img src="images/masa-logo.jpg" alt="a logo" class="ele-hover" style="width:4%;border-radius: 25%;margin-top: 10px;">
+        </a>
+    </div>
+      <ul class="extra-body">
+        <li>DN</li>
+        <li>DN</li>
+
+      </ul>
+    </div>
+  </header>
+
+
 
 <!--Skills-->
-<div class="bar" style="padding-bottom:20px;background:#084680;">
+<div class="bar" style="padding-top:10px;padding-bottom:20px;background:#084680;">
   <h1 class="page-header" id="extracurriculars">Skills</h1>
-  <hr class="header-line expand-from-center" style="width:104px;margin-top:-15px;">
+  <hr class="header-line expand-from-center" style="width:120px;margin-top:-15px;">
+  <div class="skills">
+    <ul style="margin: bottom 50px; list-style-type:none; padding-left: 0px;">
+      <li class="skill">
+        <span class="skill-name">C++</span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
 
+      <li class="skill">
+        <span class="skill-name">Python</span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+
+      <li class="skill">
+        <span class="skill-name">Git</span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+
+      <li class="skill">
+        <span class="skill-name">MATLAB</span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+
+      <li class="skill">
+        <span class="skill-name">HTML</span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+
+      <li class="skill">
+        <span class="skill-name">CSS</span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </li>
+
+      <li class="skill">
+        <span class="skill-name">JavaScript</span>
+        <span class="dot"></span>
+      </li>
+      
+      
+    </ul>
+  </div>
 </div>
 
 <!--Contact Me-->
+ 
+
+  <script src="./index.js"></script>
 
 
-
-
-</div>
-
-
+  <div style="transform: scale(0.9); font-family: Roboto; border-radius: 0px; padding: 0px 0px; width: 100%;">
+    <form accept-charset="UTF-8" action="https://getform.io/f/fdabf537-1151-4e8a-9fb0-9a80c6fea646" method="POST" enctype="multipart/form-data"  target="_blank" id="wpform">
+       <div>
+        <h2 style="font-size:25px;color: white;">Contact Me</h2>
+          <div>
+             <input style=" margin-top: 0px;background-color: #fff; height:35px; width:550px;" type="text" name="first_name" placeholder="Name" required="required">
+          </div>
+       </div>
+       <br>
+       <div>
+          <div>
+             <input style="margin-top: 0px;background-color: #fff; height:35px; width:550px;" type="email" name="email" placeholder="Email address" required="required">
+          </div>
+       </div>
+       <br>
+       <div>
+          <div>
+             <textarea style="margin-top: 0px;background-color: #fff; height:120px; width:550px;" type="text" name="message" placeholder="Your message" required="required"></textarea>
+          </div>
+       </div>
+       
+       <input type="hidden" name="utf8" value="✓">
+       <button style="align-self:center; font-size:14px; background-color:black; color:#fff; font-weight:bold; padding:10px 35px; margin: 5px 0 0 0;" type="submit">SUBMIT</button>
+      </div>
+    </form>
+    <div style="float: right;">
+deez
+    </div>
+  </div>
 
 
 
 
 <script>
-
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function menu_click() {
@@ -183,19 +382,5 @@ window.onclick = function(event) {
 </script>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
