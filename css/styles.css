@@ -15,7 +15,7 @@ body{
     overflow-y: auto;
     height: 100%;
     width: 100%;
-    font-family: 'Verdana';
+    font-family: Roboto;
     font-size: 20px;
     margin: 0;
     padding: 0;
@@ -119,6 +119,7 @@ text-decoration: none
     justify-content: left;
     padding-left: 25%;
     padding-top: 10px;
+    padding-right: 25%;
     padding-bottom: 30px;
     font-size: 16px;
     text-align: left;
