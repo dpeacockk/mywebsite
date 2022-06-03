@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/dpeacockk/mywebsite/issues"
   },
-  "homepage": "https://github.com/dpeacockk/mywebsite#readme",
+  "homepage": "http://danieldpeacock.net/",
   "dependencies": {
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
